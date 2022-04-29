@@ -100,4 +100,5 @@ if __name__ == '__main__':
         print(f'Exception {sys.exc_info()[0]}')
 
     print('exiting in 3 seconds...')
+
     time.sleep(3)
