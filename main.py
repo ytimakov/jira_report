@@ -43,7 +43,7 @@ if __name__ == '__main__':
         jira = JIRA(options=jira_options, basic_auth=(user_name, pwd))
         del pwd
     except:
-        print('Incorrect parameters');
+        print('Incorrect parameters')
         print(f'Usage: {sys.argv[0]} <jira server URL> <user_name> <password> <excel file> <Jira Query>')
         raise
 
