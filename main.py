@@ -44,7 +44,7 @@ if __name__ == '__main__':
         del pwd
     except:
         print('Incorrect parameters');
-        print(f'Usage: {argv[0]} <jira server URL> <user_name> <password> <excel file> <Jira Query>')
+        print(f'Usage: {sys.argv[0]} <jira server URL> <user_name> <password> <excel file> <Jira Query>')
         raise
 
 
